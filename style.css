@@ -1,0 +1,103 @@
+main{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta{
+  width: 990px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.img{
+  display: flex;
+  width: 350px;
+}
+
+.pic{
+  border-radius: 100px 0 100px 0;
+  border: 15px solid #F5F5F5;
+  width: 350px;
+  height: 350px;
+}
+
+.datos{
+  padding-left: 65px;
+}
+
+h1{
+  color: #010101;
+  font-family: Lato;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.hagamos{
+  width: 135px;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.icon{
+  margin-bottom: 10px;
+}
+
+.icons a{
+  text-decoration: none;
+}
+
+h3{
+  color: #010101;
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  
+  .pic{
+    width: 300px;
+    height: auto;
+    margin-bottom: 25px;
+  }
+  
+  .tarjeta{
+    flex-direction: column;
+  }
+  
+  .img{
+    justify-content: center;
+    width: 300px;
+  }
+  
+  .datos{
+    padding: 0 24px;
+    justify-content: center;
+  }
+  
+  h1{
+    font-size: 60px;
+  }
+  
+  .icons{
+    gap: 20px;
+  }
+}
+
